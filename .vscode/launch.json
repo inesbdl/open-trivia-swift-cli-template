@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:open-trivia-swift-cli-template}",
+            "name": "Debug opentrivia",
+            "program": "${workspaceFolder:open-trivia-swift-cli-template}/.build/debug/opentrivia",
+            "preLaunchTask": "swift: Build Debug opentrivia"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:open-trivia-swift-cli-template}",
+            "name": "Release opentrivia",
+            "program": "${workspaceFolder:open-trivia-swift-cli-template}/.build/release/opentrivia",
+            "preLaunchTask": "swift: Build Release opentrivia"
+        }
+    ]
+}
